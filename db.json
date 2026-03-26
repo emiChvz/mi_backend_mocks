@@ -8,42 +8,6 @@
       "path": "/dashboard",
       "canView": "ROLE_ADMIN,ROLE_USER",
       "status": true
-    },
-    {
-      "id": 2,
-      "idMenu": 2,
-      "name": "Usuario",
-      "description": "Usuario",
-      "path": "/usuario",
-      "canView": "ROLE_ADMIN,ROLE_USER",
-      "status": true
-    },
-    {
-      "id": 3,
-      "idMenu": 3,
-      "name": "Roles",
-      "description": "Roles",
-      "path": "/roles",
-      "canView": "ROLE_ADMIN,ROLE_USER",
-      "status": true
-    },
-    {
-      "id": 4,
-      "idMenu": 4,
-      "name": "Permisos",
-      "description": "Permisos",
-      "path": "/permisos",
-      "canView": "ROLE_ADMIN,ROLE_USER",
-      "status": true
-    },
-    {
-      "id": 5,
-      "idMenu": 5,
-      "name": "Menu",
-      "description": "Menu",
-      "path": "/menu",
-      "canView": "ROLE_ADMIN,ROLE_USER",
-      "status": true
     }
   ],
   "permissions": [
@@ -115,38 +79,6 @@
           "name": "Dashboard",
           "description": "Dashboard principal",
           "path": "/dashboard",
-          "canView": "ROLE_ADMIN,ROLE_USER",
-          "status": true
-        },
-        {
-          "idMenu": 2,
-          "name": "Usuario",
-          "description": "Usuario",
-          "path": "/usuario",
-          "canView": "ROLE_ADMIN,ROLE_USER",
-          "status": true
-        },
-        {
-          "idMenu": 3,
-          "name": "Roles",
-          "description": "Roles",
-          "path": "/roles",
-          "canView": "ROLE_ADMIN,ROLE_USER",
-          "status": true
-        },
-        {
-          "idMenu": 4,
-          "name": "Permisos",
-          "description": "Permisos",
-          "path": "/permisos",
-          "canView": "ROLE_ADMIN,ROLE_USER",
-          "status": true
-        },
-        {
-          "idMenu": 5,
-          "name": "Menu",
-          "description": "Menu",
-          "path": "/menu",
           "canView": "ROLE_ADMIN,ROLE_USER",
           "status": true
         }
@@ -258,6 +190,38 @@
               "description": "Dashboard de la aplicacion",
               "path": "/dashboard",
               "canView": "YES",
+              "status": true
+            },
+            {
+              "idMenu": 2,
+              "name": "Usuario",
+              "description": "Usuario",
+              "path": "/usuario",
+              "canView": "ROLE_ADMIN,ROLE_USER",
+              "status": true
+            },
+            {
+              "idMenu": 3,
+              "name": "Roles",
+              "description": "Roles",
+              "path": "/roles",
+              "canView": "ROLE_ADMIN,ROLE_USER",
+              "status": true
+            },
+            {
+              "idMenu": 4,
+              "name": "Permisos",
+              "description": "Permisos",
+              "path": "/permisos",
+              "canView": "ROLE_ADMIN,ROLE_USER",
+              "status": true
+            },
+            {
+              "idMenu": 5,
+              "name": "Menu",
+              "description": "Menu",
+              "path": "/menu",
+              "canView": "ROLE_ADMIN,ROLE_USER",
               "status": true
             }
           ]
