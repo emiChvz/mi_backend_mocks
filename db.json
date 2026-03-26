@@ -8,6 +8,42 @@
       "path": "/dashboard",
       "canView": "ROLE_ADMIN,ROLE_USER",
       "status": true
+    },
+    {
+      "id": 2,
+      "idMenu": 2,
+      "name": "Usuario",
+      "description": "Usuario",
+      "path": "/usuario",
+      "canView": "ROLE_ADMIN,ROLE_USER",
+      "status": true
+    },
+    {
+      "id": 3,
+      "idMenu": 3,
+      "name": "Roles",
+      "description": "Roles",
+      "path": "/roles",
+      "canView": "ROLE_ADMIN,ROLE_USER",
+      "status": true
+    },
+    {
+      "id": 4,
+      "idMenu": 4,
+      "name": "Permisos",
+      "description": "Permisos",
+      "path": "/permisos",
+      "canView": "ROLE_ADMIN,ROLE_USER",
+      "status": true
+    },
+    {
+      "id": 5,
+      "idMenu": 5,
+      "name": "Menu",
+      "description": "Menu",
+      "path": "/menu",
+      "canView": "ROLE_ADMIN,ROLE_USER",
+      "status": true
     }
   ],
   "permissions": [
@@ -48,20 +84,106 @@
       "description": "Administrador",
       "status": true,
       "permissions": [
-        { "idPermission": 3, "name": "EDIT", "description": "Puede editar", "status": true },
-        { "idPermission": 1, "name": "VIEW", "description": "Puede ver", "status": true },
-        { "idPermission": 4, "name": "DELETE", "description": "Puede borrar", "status": true },
-        { "idPermission": 2, "name": "CREATE", "description": "Puede crear", "status": true }
+        {
+          "idPermission": 3,
+          "name": "EDIT",
+          "description": "Puede editar",
+          "status": true
+        },
+        {
+          "idPermission": 1,
+          "name": "VIEW",
+          "description": "Puede ver",
+          "status": true
+        },
+        {
+          "idPermission": 4,
+          "name": "DELETE",
+          "description": "Puede borrar",
+          "status": true
+        },
+        {
+          "idPermission": 2,
+          "name": "CREATE",
+          "description": "Puede crear",
+          "status": true
+        }
       ],
       "menus": [
-        { "idMenu": 1, "name": "Dashboard", "description": "Dashboard principal", "path": "/dashboard", "canView": "ROLE_ADMIN,ROLE_USER", "status": true }
+        {
+          "idMenu": 1,
+          "name": "Dashboard",
+          "description": "Dashboard principal",
+          "path": "/dashboard",
+          "canView": "ROLE_ADMIN,ROLE_USER",
+          "status": true
+        },
+        {
+          "idMenu": 2,
+          "name": "Usuario",
+          "description": "Usuario",
+          "path": "/usuario",
+          "canView": "ROLE_ADMIN,ROLE_USER",
+          "status": true
+        },
+        {
+          "idMenu": 3,
+          "name": "Roles",
+          "description": "Roles",
+          "path": "/roles",
+          "canView": "ROLE_ADMIN,ROLE_USER",
+          "status": true
+        },
+        {
+          "idMenu": 4,
+          "name": "Permisos",
+          "description": "Permisos",
+          "path": "/permisos",
+          "canView": "ROLE_ADMIN,ROLE_USER",
+          "status": true
+        },
+        {
+          "idMenu": 5,
+          "name": "Menu",
+          "description": "Menu",
+          "path": "/menu",
+          "canView": "ROLE_ADMIN,ROLE_USER",
+          "status": true
+        }
       ]
     }
   ],
   "companies": [
-    { "id": 1, "companyId": 1, "userId": 1, "name": "PBS El Salvador", "description": "PBS El Salvador", "legalName": "PBS El Salvador", "country": "El Salvador", "status": true },
-    { "id": 2, "companyId": 2, "userId": 1, "name": "PBS Consulting", "description": "PBS Consulting", "legalName": "PBS Consulting", "country": "El Salvador", "status": true },
-    { "id": 3, "companyId": 3, "userId": 1, "name": "HTC Honduras", "description": "HTC Honduras", "legalName": "HTC Honduras", "country": "El Salvador", "status": true }
+    {
+      "id": 1,
+      "companyId": 1,
+      "userId": 1,
+      "name": "PBS El Salvador",
+      "description": "PBS El Salvador",
+      "legalName": "PBS El Salvador",
+      "country": "El Salvador",
+      "status": true
+    },
+    {
+      "id": 2,
+      "companyId": 2,
+      "userId": 1,
+      "name": "PBS Consulting",
+      "description": "PBS Consulting",
+      "legalName": "PBS Consulting",
+      "country": "El Salvador",
+      "status": true
+    },
+    {
+      "id": 3,
+      "companyId": 3,
+      "userId": 1,
+      "name": "HTC Honduras",
+      "description": "HTC Honduras",
+      "legalName": "HTC Honduras",
+      "country": "El Salvador",
+      "status": true
+    }
   ],
   "users": [
     {
@@ -71,10 +193,22 @@
       "email": "gerardo.mira@pbs.group",
       "status": true,
       "roles": [
-         { "idRole": 1, "name": "ADMIN", "description": "Administrador", "status": true }
+        {
+          "idRole": 1,
+          "name": "ADMIN",
+          "description": "Administrador",
+          "status": true
+        }
       ],
       "companies": [
-         { "companyId": 1, "name": "PBS El Salvador", "description": "PBS El Salvador", "legalName": "PBS El Salvador", "country": "El Salvador", "status": true }
+        {
+          "companyId": 1,
+          "name": "PBS El Salvador",
+          "description": "PBS El Salvador",
+          "legalName": "PBS El Salvador",
+          "country": "El Salvador",
+          "status": true
+        }
       ]
     }
   ],
@@ -92,20 +226,68 @@
           "description": "Administrador",
           "status": true,
           "permissions": [
-             { "idPermission": 3, "name": "EDIT", "description": "Puede editar", "status": true },
-             { "idPermission": 1, "name": "VIEW", "description": "Puede ver", "status": true },
-             { "idPermission": 4, "name": "DELETE", "description": "Puede borrar", "status": true },
-             { "idPermission": 2, "name": "CREATE", "description": "Puede crear", "status": true }
+            {
+              "idPermission": 3,
+              "name": "EDIT",
+              "description": "Puede editar",
+              "status": true
+            },
+            {
+              "idPermission": 1,
+              "name": "VIEW",
+              "description": "Puede ver",
+              "status": true
+            },
+            {
+              "idPermission": 4,
+              "name": "DELETE",
+              "description": "Puede borrar",
+              "status": true
+            },
+            {
+              "idPermission": 2,
+              "name": "CREATE",
+              "description": "Puede crear",
+              "status": true
+            }
           ],
           "menus": [
-             { "idMenu": 1, "name": "Dashboard", "description": "Dashboard de la aplicacion", "path": "/dashboard", "canView": "YES", "status": true }
+            {
+              "idMenu": 1,
+              "name": "Dashboard",
+              "description": "Dashboard de la aplicacion",
+              "path": "/dashboard",
+              "canView": "YES",
+              "status": true
+            }
           ]
         }
       ],
       "companies": [
-        { "companyId": 1, "name": "PBS El Salvador", "description": "PBS El Salvador", "legalName": "PBS El Salvador", "country": "El Salvador", "status": true },
-        { "companyId": 2, "name": "PBS Consulting", "description": "PBS Consulting", "legalName": "PBS Consulting", "country": "El Salvador", "status": true },
-        { "companyId": 3, "name": "HTC Honduras", "description": "HTC Honduras", "legalName": "HTC Honduras", "country": "El Salvador", "status": true }
+        {
+          "companyId": 1,
+          "name": "PBS El Salvador",
+          "description": "PBS El Salvador",
+          "legalName": "PBS El Salvador",
+          "country": "El Salvador",
+          "status": true
+        },
+        {
+          "companyId": 2,
+          "name": "PBS Consulting",
+          "description": "PBS Consulting",
+          "legalName": "PBS Consulting",
+          "country": "El Salvador",
+          "status": true
+        },
+        {
+          "companyId": 3,
+          "name": "HTC Honduras",
+          "description": "HTC Honduras",
+          "legalName": "HTC Honduras",
+          "country": "El Salvador",
+          "status": true
+        }
       ]
     }
   }
