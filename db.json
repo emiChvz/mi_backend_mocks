@@ -189,39 +189,34 @@
               "name": "Dashboard",
               "description": "Dashboard de la aplicacion",
               "path": "/dashboard",
-              "canView": "YES",
               "status": true
             },
             {
               "idMenu": 2,
               "name": "Usuario",
               "description": "Usuario",
-              "path": "/usuario",
-              "canView": "ROLE_ADMIN,ROLE_USER",
+              "path": "/dashboard/mantenimientos/usuarios",
               "status": true
             },
             {
               "idMenu": 3,
               "name": "Roles",
               "description": "Roles",
-              "path": "/roles",
-              "canView": "ROLE_ADMIN,ROLE_USER",
+              "path": "/dashboard/mantenimientos/roles",
               "status": true
             },
             {
               "idMenu": 4,
               "name": "Permisos",
               "description": "Permisos",
-              "path": "/permisos",
-              "canView": "ROLE_ADMIN,ROLE_USER",
+              "path": "/dashboard/mantenimientos/permisos",
               "status": true
             },
             {
               "idMenu": 5,
               "name": "Menu",
               "description": "Menu",
-              "path": "/menu",
-              "canView": "ROLE_ADMIN,ROLE_USER",
+              "path": "/dashboard/mantenimientos/menu",
               "status": true
             }
           ]
