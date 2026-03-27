@@ -6,7 +6,6 @@
       "name": "Dashboard",
       "description": "Dashboard principal",
       "path": "/dashboard",
-      "canView": "ROLE_ADMIN,ROLE_USER",
       "status": true
     }
   ],
